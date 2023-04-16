@@ -98,6 +98,13 @@ input, select, textarea {
 		box-sizing: inherit;
 	}
 
+	/* 가장 아래 공백 컨테이너 추가 */
+	/* .container {
+		background: #242943;
+		width: 100%;
+		height: 1000px;
+	} */
+
 	body {
 		background: #242943;
 	}
@@ -2365,6 +2372,30 @@ input, select, textarea {
 			}
 
 		}
+
+/* post 추가 */
+
+	.post {
+		margin-left: 290px;
+		margin-right: 290px;
+		margin-bottom: 100px;
+	}
+
+	#wrapper > * > .post {
+		border-style: none;
+	}
+
+	/* .post > * > img {
+		display: flex;
+	} */
+
+/* 하트 및 댓글 footer */
+
+	.stats {
+		margin-left: 130px;
+	}
+
+
 
 /* Pagination */
 
